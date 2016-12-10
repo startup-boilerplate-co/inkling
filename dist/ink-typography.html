@@ -1,0 +1,95 @@
+<html><head></head><body><dom-module id="ink-typography">
+	<template>
+		<style>
+
+		:root {
+			--font-size-base: 16px;
+
+			--font-size1:               2.5rem;
+			--font-size2:               2rem;
+			--font-size3:               1.75rem;
+			--font-size4:               1.5rem;
+			--font-size5:               1.25rem;
+			--font-size6:               1rem;
+
+
+			--font-md: 			1;
+			--font-lg:			1.25;
+			--font-xlg:			1.25;
+			--font-sm:  		.875;
+			--font-xs: 			.75;
+		}
+
+
+		ink-hero1 { font-size: calc(var(--font-size1) * var(--font-xlg)); }
+		ink-hero2 {	font-size: calc(var(--font-size2) * var(--font-xlg)); }
+		ink-hero3 {	font-size: calc(var(--font-size3) * var(--font-xlg)); }
+		ink-hero4 {	font-size: calc(var(--font-size4) * var(--font-xlg)); }
+		ink-hero5 {	font-size: calc(var(--font-size5) * var(--font-xlg)); }
+		ink-hero6 {	font-size: calc(var(--font-size6) * var(--font-xlg)); }
+
+		ink-h1 { font-size: calc(var(--font-size1) * var(--font-lg)); }
+		ink-h2 { font-size: calc(var(--font-size2) * var(--font-lg)); }
+		ink-h3 { font-size: calc(var(--font-size3) * var(--font-lg)); }
+		ink-h4 { font-size: calc(var(--font-size4) * var(--font-lg)); }
+		ink-h5 { font-size: calc(var(--font-size5) * var(--font-lg)); }
+		ink-h6 { font-size: calc(var(--font-size6) * var(--font-lg)); }
+
+		ink-c1 { font-size: calc(var(--font-size1) * var(--font-md)); }
+		ink-c2 { font-size: calc(var(--font-size2) * var(--font-md)); }
+		ink-c3 { font-size: calc(var(--font-size3) * var(--font-md)); }
+		ink-c4 { font-size: calc(var(--font-size4) * var(--font-md)); }
+		ink-c5 { font-size: calc(var(--font-size5) * var(--font-md)); }
+		ink-c6 { font-size: calc(var(--font-size6) * var(--font-md)); }
+
+		ink-tiny1 { font-size: calc(var(--font-size1) * var(--font-sm)); }
+		ink-tiny2 {	font-size: calc(var(--font-size2) * var(--font-sm)); }
+		ink-tiny3 {	font-size: calc(var(--font-size3) * var(--font-sm)); }
+		ink-tiny4 {	font-size: calc(var(--font-size4) * var(--font-sm)); }
+		ink-tiny5 {	font-size: calc(var(--font-size5) * var(--font-sm)); }
+		ink-tiny6 {	font-size: calc(var(--font-size6) * var(--font-sm)); }
+
+		ink-micro1 { font-size: calc(var(--font-size1) * var(--font-xs)); }
+		ink-micro2 { font-size: calc(var(--font-size2) * var(--font-xs)); }
+		ink-micro3 { font-size: calc(var(--font-size3) * var(--font-xs)); }
+		ink-micro4 { font-size: calc(var(--font-size4) * var(--font-xs)); }
+		ink-micro5 { font-size: calc(var(--font-size5) * var(--font-xs)); }
+		ink-micro6 { font-size: calc(var(--font-size6) * var(--font-xs)); }
+
+
+		ink-hero1, ink-hero2, ink-hero3, ink-hero4 {
+			font-family: 'Source Sans Pro', sans-serif;
+			font-weight: 200;
+		}
+
+
+		h1, h2, h3, h4, h5, h6 {
+			padding: 0;
+			margin: 0;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-weight: 200;
+			line-height: 1.1em;
+			color: var(--pigments-blue-500);
+		}
+
+		*[ink-txt-l] { text-align: left; }
+		*[ink-txt-r] { text-align: right; }
+		*[ink-txt-c] { text-align: center; }
+
+		*[ink-hide] { display: none; }
+		*[ink-show] { display: block; }
+		*[ink-vis] { visibility: visible; }
+		*[ink-invis] { visibility: hidden; }
+
+		*[ink-accent] {
+			font-family: 'Norican', cursive;
+		}
+
+		*[ink-white] {
+			color: white;
+		}
+
+    </style>
+	</template>
+</dom-module>
+</body></html>
